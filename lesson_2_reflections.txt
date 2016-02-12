@@ -1,0 +1,12 @@
+Q: What happens when you initialize a repository?  Why do you need to do it?
+
+- Git creates all the metadata directories it needs to keep track of versions.
+
+Q: How is the staging area different from the working directory and the repository?
+   What value do you think it offers?
+
+- Working directory:  files keep changing, there are no backups.
+- Repository:  files have been checked in.  They cannot be changed.
+- Staging area:  region in between.  Not yet in repository but saves a copy while you work
+  in the working directory.
+
