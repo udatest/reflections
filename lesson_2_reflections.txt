@@ -10,3 +10,37 @@ Q: How is the staging area different from the working directory and the reposito
 - Staging area:  region in between.  Not yet in repository but saves a copy while you work
   in the working directory.
 
+Q: How can you use the staging area to make sure you have one commit per logical change?
+
+Only add the files you wish to commit into the staging area.  Leave the other (modified)
+files in the working directory.
+
+Q: What are some situations when branches would be helpful in keeping your history
+   organized? How would branches help?
+
+- When working on a new feature that involves quite a bit of coding, it is a good
+  idea to create a branch to save all the changes one makes.  When the new feature
+  is fully operational and without issue, it can be merged into the main branch.
+  That way, the main branch remains clean.  We are not introducing bugs or breaking
+  the main branch.
+
+Q: How do diagrams help you visualize the branch structure?
+
+- Helps us to see where a given branch started.
+- If other changes have been made to the main branch.
+
+
+Q: What is the result of merging two branches together?
+   Why do we represent it in the diagram the way we do?
+
+   All changes from one branch are merged into another branch.
+   All the commits from that branch being merged from will be
+   accessible from the the branch being merged to.  The new head
+   will have two parents.
+   After that, one can remove the branch that has been merged from.
+   Only the branch will be deleted, not the commits.  The commits will
+   be reachable from the new merged branch.
+
+Q: What are the pros and cons of Git's automatic vs. always doing merges manually?
+
+   It helps that Git is doign some automatic merging.  Time is being saved.
