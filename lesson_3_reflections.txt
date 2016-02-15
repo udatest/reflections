@@ -10,3 +10,12 @@ Q: Why might you want to always pull changes manually rather than having Git
    with changes from the remote.  This would disrupt your line of work.
    Better work on your own and when you are ready to merge with the remote,
    you can do so and handle the conflicts at that time.
+
+Q: Describe the differences between forks, clones and branches.
+   When would you use one instead of another?
+
+   Branch:  On a repository, when we want to work on a different feature.
+   Clones:  Cloning a repository to be able to work on it locally.
+   Forks:   Cloning a repository from GitHub to GitHub.  This is done when we wish
+            to work on a given project, but we do not have write permissions on that
+            project.
