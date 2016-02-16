@@ -25,3 +25,9 @@ Q: What is the benefit of having a copy of the last known state of the remote
 
    So we can work without an internet connection.
    We can know merge our local branch with the remote (without needing an internet connection).
+
+Q: How would you collaborate without using Git or GitHub?
+   What would be easier, and what would be harder?
+
+   Without a version control management, it would be hard to manage the
+   numerous versions.  Hard to imagine when one is used to version control.
