@@ -19,3 +19,9 @@ Q: Describe the differences between forks, clones and branches.
    Forks:   Cloning a repository from GitHub to GitHub.  This is done when we wish
             to work on a given project, but we do not have write permissions on that
             project.
+
+Q: What is the benefit of having a copy of the last known state of the remote
+   stored locally?
+
+   So we can work without an internet connection.
+   We can know merge our local branch with the remote (without needing an internet connection).
