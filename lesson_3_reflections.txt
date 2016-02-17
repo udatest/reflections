@@ -31,3 +31,12 @@ Q: How would you collaborate without using Git or GitHub?
 
    Without a version control management, it would be hard to manage the
    numerous versions.  Hard to imagine when one is used to version control.
+
+Q: When would you want to make changes in a separate branch rather than directly in master?
+   What benefits does each approach have?
+
+   So we can experiment with new features, saving along the way, without breaking the
+   main branch.  When and if we are satisfied with the newly developed feature,
+   then we can merge into the main branch.
+
+
